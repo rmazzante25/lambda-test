@@ -1,6 +1,6 @@
-def lambda_handler(event, context):
+def handler(event, context):
     return {
     'statusCode': 200,
-    'body': 'Hello from Lambda to Reynaldo!'
+    'body': 'Hello from Lambda to Joao!'
 }
        
